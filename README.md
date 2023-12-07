@@ -24,6 +24,9 @@ Next, the output features of the CNN encoders is analyzed with t-SNE as well as 
 - Sklearn
 - PIL
 
+# Instruction on how to train/validate your model / Instructions on how to run the pre-trained model on the provided sample test dataset (Boshider)
+
+
 # Colab Main File:
 
 
