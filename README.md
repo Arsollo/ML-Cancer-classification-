@@ -40,7 +40,7 @@ Finally, the output features of the CNN encoders were analyzed using t-SNE, Logi
 The majority of the coding was implemneted on two seperate Colab files. <br>
 In the first file, we uploaded the three datasets, preprocessed them and visualized them and we also designed, trained and tested the ResNet-18 model on Dataset #1 <br>
 
-#### [Training and testing CNN Encoder.ipynb](https://colab.research.google.com/drive/19xycOefX7l8RE1pfRWApMzE0WxNqjuG6 )
+#### [Training and testing the ResNet-18 Model.ipynb](https://colab.research.google.com/drive/19xycOefX7l8RE1pfRWApMzE0WxNqjuG6)
 
 In the second file, we applied t-SNE on the 4 different scenarios and we also applied Logistic Regression and K-nearest neighbour clustering on Dataset #3.
 
