@@ -33,20 +33,24 @@ Finally, the output features of the CNN encoders were analyzed using t-SNE, Logi
 
 # How to train/validate our model:
 Training the model:
-  1-Upload the dataset over to Google drive.<br>
-  2-Open the "Training and testing the ResNet-18 Model.ipynb" file with GoogleColab<br>
   
-  3-In the 3rd code block, copy and paste the dataset path (google drive path) over the datset1_path variable:<br>
-  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/42e006e7-b9a3-4607-af31-e2db0b096e10)<br>
+  1-Upload the dataset over to Google drive.
   
-  4-In the 11th code block, copy and past the desired path (google drive path) to save the model and the optimizer, over the save_dir and save_dir_opti variables:<br>
-  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/6e235a19-3716-4619-88cb-b3c26fd0891a)<br>
+  2-Open the "Training and testing the ResNet-18 Model.ipynb" file with GoogleColab
   
-  5-In the top right corner of the Google Colab, connect to a T4 GPU server:<br>
-  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/8dacec3a-945c-4273-8b41-9bab7c3fc8f2)<br>
+  3-In the 3rd code block, copy and paste the dataset path (google drive path) over the datset1_path variable:
+  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/42e006e7-b9a3-4607-af31-e2db0b096e10)
   
-  6-Run all code blocks in sequence, up to and including code block 11 ("# Training the CNN ResNet-18 Model").<br>
+  4-In the 11th code block, copy and past the desired path (google drive path) to save the model and the optimizer, over the save_dir and save_dir_opti variables:
+  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/6e235a19-3716-4619-88cb-b3c26fd0891a)
+  
+  5-In the top right corner of the Google Colab, connect to a T4 GPU server:
+  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/8dacec3a-945c-4273-8b41-9bab7c3fc8f2)
+  
+  6-Run all code blocks in sequence, up to and including code block 11 ("# Training the CNN ResNet-18 Model").
+  
   7-It will take 30mins - 60mins to run the training cycle.<br>
+ 
   8-Run code block 12 if graphs are required.<br>
   
 
