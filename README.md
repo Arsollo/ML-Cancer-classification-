@@ -66,15 +66,21 @@ Testing the model:
   
   4-In the 13th code block ("#Classification Report on training data"), copy and past the path (google drive path) to the model to load, over the save_dir variable:
  
+ ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/c3d734d6-9956-43e9-915a-6dd3dfc6ecc7)
+
 
   5-In the 14th code block ("#Testing the model on Dataset #1"), copy and past the path (google drive path) to the model to load, over the save_dir variable:
+  
   ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/28ae3509-385a-4a9c-96cd-9ef7b8e8be84)
 
   6-In the top right corner of the Google Colab, connect to a T4 GPU server:
+  
   ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/8dacec3a-945c-4273-8b41-9bab7c3fc8f2)
   
   7-Run all code blocks in sequence, excepth code block 11 and 12.
+    
     Code block 13 ("#Classification Report on training data") will run the model, in prediction mode, over the TRAINING DATA and print the classification report.
+    
     Code block 14 ("#Testing the model on Dataset #1") will run the model, in prediction mode, over the TESTING DATA and print confusion matrix and the classification report.
     
   8-It will take 30mins - 60mins to run the testing cycle.
