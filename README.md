@@ -49,12 +49,36 @@ Training the model:
   
   6-Run all code blocks in sequence, up to and including code block 11 ("# Training the CNN ResNet-18 Model").
   
-  7-It will take 30mins - 60mins to run the training cycle.<br>
+  7-It will take 30mins - 60mins to run the training cycle.
  
-  8-Run code block 12 if graphs are required.<br>
+  8-Run code block 12 if graphs are required.
   
 
-# How to run the pre-trained model on the provided sample test dataset: (Boshider)
+# How to run the pre-trained model on the provided sample test dataset: 
+Testing the model:
+    
+  1-Upload the dataset over to Google drive.
+  
+  2-Open the "Training and testing the ResNet-18 Model.ipynb" file with GoogleColab
+  
+  3-In the 3rd code block, copy and paste the dataset path (google drive path) over the datset1_path variable:
+  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/42e006e7-b9a3-4607-af31-e2db0b096e10)
+  
+  4-In the 13th code block ("#Classification Report on training data"), copy and past the path (google drive path) to the model to load, over the save_dir variable:
+ 
+
+  5-In the 14th code block ("#Testing the model on Dataset #1"), copy and past the path (google drive path) to the model to load, over the save_dir variable:
+  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/28ae3509-385a-4a9c-96cd-9ef7b8e8be84)
+
+  6-In the top right corner of the Google Colab, connect to a T4 GPU server:
+  ![image](https://github.com/Arsollo/COMP432-GroupP/assets/52761503/8dacec3a-945c-4273-8b41-9bab7c3fc8f2)
+  
+  7-Run all code blocks in sequence, excepth code block 11 and 12.
+    Code block 13 ("#Classification Report on training data") will run the model, in prediction mode, over the TRAINING DATA and print the classification report.
+    Code block 14 ("#Testing the model on Dataset #1") will run the model, in prediction mode, over the TESTING DATA and print confusion matrix and the classification report.
+    
+  8-It will take 30mins - 60mins to run the testing cycle.
+
 
 
 # Colab Main Files:
