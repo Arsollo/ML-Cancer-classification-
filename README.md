@@ -79,9 +79,9 @@ Testing the model:
   
   7-Run all code blocks in sequence, excepth code block 11 and 12.
     
-    Code block 13 ("#Classification Report on training data") will run the model, in prediction mode, over the TRAINING DATA and print the classification report.
+  Code block 13 ("#Classification Report on training data") will run the model, in prediction mode, over the TRAINING DATA and print the classification report.
     
-    Code block 14 ("#Testing the model on Dataset #1") will run the model, in prediction mode, over the TESTING DATA and print confusion matrix and the classification report.
+  Code block 14 ("#Testing the model on Dataset #1") will run the model, in prediction mode, over the TESTING DATA and print confusion matrix and the classification report.
     
   8-It will take 30mins - 60mins to run the testing cycle.
 
