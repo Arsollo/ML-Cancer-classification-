@@ -94,11 +94,11 @@ Testing the model:
 The majority of the coding was implemneted on two seperate Colab files. <br>
 In the first file, we uploaded the three datasets, preprocessed them and visualized them and we also designed, trained and tested the ResNet-18 model on Dataset #1 <br>
 
-#### [Training and testing the ResNet-18 Model.ipynb](https://colab.research.google.com/drive/19xycOefX7l8RE1pfRWApMzE0WxNqjuG6)
+#### [Training and testing the ResNet-18 Model on Dataset#1.ipynb](https://colab.research.google.com/drive/19xycOefX7l8RE1pfRWApMzE0WxNqjuG6)
 
 In the second file, we applied t-SNE on the 4 different scenarios and we also applied Logistic Regression and K-nearest neighbour clustering on Dataset #3.
 
-#### [Features from ImageNet on LR and KNN.ipynb](https://colab.research.google.com/drive/1bMYTCn0ksrIRmdwLOQLc7KklEnJYAg3i#scrollTo=cRHgX_4OxyTW)
+#### [t-SNE Feature extraction for 4 scenarios & LR and KNN on Dataset #3](https://colab.research.google.com/drive/1bMYTCn0ksrIRmdwLOQLc7KklEnJYAg3i#scrollTo=cRHgX_4OxyTW)
 
 # Video Presentation:
 To present our work, a short 8 minutes presentation video was produced: 
