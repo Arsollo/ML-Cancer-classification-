@@ -101,7 +101,8 @@ In the second file, we applied t-SNE on the 4 different scenarios and we also ap
 #### [t-SNE Feature extraction for 4 scenarios & LR and KNN on Dataset #3](https://colab.research.google.com/drive/1bMYTCn0ksrIRmdwLOQLc7KklEnJYAg3i#scrollTo=cRHgX_4OxyTW)
 
 # Video Presentation:
-To present our work, a short 8 minutes presentation video was produced: 
+To present our work, a short presentation video was produced:
+https://drive.google.com/file/d/13qptJGb3GGlRhKQ0cQdX6X4qOeRHFlwK/view?usp=share_link 
 
 
 
