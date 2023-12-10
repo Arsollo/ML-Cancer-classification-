@@ -12,7 +12,7 @@ This is a dataset of 120k image patches split into 3 different classes identifyi
 This is a dataset of 16k images split into 3 different classes identifying animal types, including Cats, Dogs, and wildlife animals. For this project, the dataset is reduced to 6k images for the same 3 classes.
 
 ### Project's main goal:
-The goal of the project was to design and train a CNN ResNet-18 encoder on Datset #1 and applying that same model on Dataset #2 & Dataset #3 to analyze the difference in performances. <br><br>
+The goal of the project was to design and train a CNN ResNet-18 encoder on Datset #1 and applying that same model on Dataset #2 & Dataset #3 to analyze the difference in performances and experiment with the concept of transfer of knowledge. <br><br>
 To start, our team researched several common CNN architectures and ended up choosing ResNet-18. We split the first dataset for training and testing, designed and trained the ResNet-18 CNN model on the training set and tested it afterwards on the testing set. <br>
 Afterwards, the model was also applied to Dataset #2 and Dataset #3. Next, a different pre-trained CNN encoder from the pytorch library was chosen (ImageNet) and was applied on Dataset #2 & Dataset #3. The CNN model that we built oursleves as well as the pytorch CNN model were then compared in terms of their performances (loss and accuracy). To help with the reporting, different classification reports were produced in addition to plots to help visualize the performance of the models at each training epoch. <br><br>
 Finally, the output features of the CNN encoders were analyzed using t-SNE, Logistic Regression and K-nearest neighbour clustering on Dataset #3. 
