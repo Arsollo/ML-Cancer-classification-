@@ -1,4 +1,4 @@
-# Comp432-GroupP: 
+# Machine Learning Cancer Classification: 
 This is a machine learning project for the Concordia class COMP-432.<br>
 The project consists of training and using pre-trained machine learning models in order to solve a classification problem. <br>
 ### Datasets used in the project: 
